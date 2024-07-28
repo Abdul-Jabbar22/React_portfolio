@@ -1,0 +1,53 @@
+/* SideBar.css */
+
+.leftSideBar {
+  position: sticky;
+  top: 25%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.75rem; /* spacing between icons */
+  padding: 1rem;
+  background-color: transparent; /* adjust if needed */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon-container a {
+  color: #00bbf0; /* adjust color as needed */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.icon-container a:hover {
+  color: #0096c7; /* change color to dark on hover */
+}
+
+.icon-container span {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 50px; /* adjust distance from the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #0095c753;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+}
+
+.icon-container:hover span {
+  visibility: visible;
+  opacity: 1;
+}
