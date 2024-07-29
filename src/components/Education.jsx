@@ -109,7 +109,7 @@ function Education() {
         </div>
         <div className="rounded-2xl w-full md:w-1/3 text-glass shadow-[#aea5a2] dark:shadow-[#020010] dark:bg-[#111928bf] bg-[#f2f3f4] p-4 m-3 shadow-2xl h-[300px]">
           <h2 className="text-center text-style text-name text-2xl font-bold py-6">
-            Workshops
+            Certifications
           </h2>
           <div className="dark:text-white text-black font-semibold py-6">
             <h3 className="">Udemy</h3>
