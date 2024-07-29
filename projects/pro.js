@@ -24,7 +24,7 @@ const dataProjects = [
     image: "images/netflix.PNG",
     detail: "React js ,  CSS ",
     desc: "Live link",
-    link: "https://ecommerce-project-react-delta.vercel.app",
+    link: "https://movix-clone-5589b.web.app/",
     status: "cursor-pointer",
   },
   {
@@ -33,7 +33,7 @@ const dataProjects = [
     image: "images/portfolio.PNG",
     detail: "With pure HTML,CSS & JS ",
     desc: "Live link",
-    link: "",
+    link: "https://abdul-jabbar22.github.io/my_portfolio/",
     status: "cursor-pointer",
   },
   {
